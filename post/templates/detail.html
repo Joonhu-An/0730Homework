@@ -1,0 +1,6 @@
+제목:{{post.title}}
+본문:{{post.body}}
+
+<a href="{% url 'main' %}">돌아가기</a>
+<a href="{% url 'renew' post.id %}">수정하기</a>
+<a href="{% url 'delete' post.id %}">삭제하기</a>
